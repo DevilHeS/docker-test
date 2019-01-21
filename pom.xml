@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>docker-test1</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>docker-test1</name>
+	<artifactId>learn-k8s</artifactId>
+	<version>1.0</version>
+	<name>learn-k8s</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -36,6 +36,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<outputFile>k8s-learn.jar</outputFile>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
